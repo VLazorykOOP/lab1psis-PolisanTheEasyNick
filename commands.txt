@@ -1,0 +1,1 @@
+sudo docker run -d -p 8085:80 -v $(pwd)/html:/usr/share/nginx/html --name lab1 nginx:alpine
